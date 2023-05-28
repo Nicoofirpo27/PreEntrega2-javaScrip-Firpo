@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header nav .imglogo {
+  border-radius: 50%;
+  width: 130px; }
+
+main {
+  font-style: italic;
+  font-weight: bold;
+  display: block; }
+
+.carousel {
+  margin-bottom: 4rem; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+.carousel-item {
+  height: 34rem; }
+
+.imgindex {
+  width: 100%;
+  height: 580px; }
+
+.imgmain {
+  text-align: center;
+  width: 98%;
+  height: 150vh;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 12px 12px;
+  grid-template-areas: "a b" "a b" "a d" "c d" "c d" "e f" "e f"; }
+  .imgmain a {
+    text-decoration: none;
+    color: black; }
+
+.a {
+  grid-area: a;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/9.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+.b {
+  grid-area: b;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/24.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+.c {
+  grid-area: c;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/5.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+.d {
+  grid-area: d;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/33.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+.e {
+  grid-area: e;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/3.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+.f {
+  grid-area: f;
+  border-radius: 3%;
+  background-image: url(../imagenes/varias/18.jpeg);
+  border: 3px solid;
+  background-size: cover;
+  background-position: center; }
+
+footer {
+  border: 30px;
+  margin-top: 7%; }
+  footer .pwrdnuscaa {
+    height: 60px;
+    border-radius: 100%;
+    width: 60px; }
+  footer .ul-footer {
+    list-style: none; }
+  footer .enlaces-footer {
+    color: #fff;
+    transition: all 0.3s;
+    text-decoration: none; }
+    footer .enlaces-footer:hover {
+      color: #ffc107; }
+  footer .iconos-redes {
+    color: #ffc107; }
+
+/*  Main Paginas */
+main .contenedorart {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around; }
+  main .contenedorart img {
+    height: 300px;
+    border-radius: 10%;
+    width: 300px; }
+
+/*  pagina "Sobre Nosotros" */
+main {
+  text-align: center;
+  margin-top: 50px; }
+  main .sobnos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; }
+    main .sobnos p {
+      line-height: 1.6;
+      margin-top: 15%;
+      word-spacing: 3px;
+      width: 430px;
+      margin-right: 150px;
+      margin-left: 100px; }
+    main .sobnos img {
+      width: 600px;
+      margin-top: 30px;
+      height: 500px;
+      border: 3px solid;
+      border-radius: 5%; }
+    main .sobnos .titlesobnos {
+      padding-top: 50px;
+      text-decoration: underline 4px solid; }
+  main .sobnos-div {
+    border-radius: 5%;
+    margin-left: 30px; }
+
+/*  pagina "Formulario" */
+.perfilmain {
+  background-image: url(../imagenes/varias/20.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0%; }
+
+.formperfil {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+  padding: 5%;
+  border-radius: 10%; }
+
+@media screen and (max-width: 576px) {
+  .imgmain {
+    margin: 1%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px 12px;
+    grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f"; }
+  .formperfil {
+    width: auto;
+    height: auto;
+    border-radius: 0%;
+    background-image: url(../imagenes/varias/20.jpeg);
+    background-position: center; } }
+
+/* !!!!!VER PORQUE NO ME TOMA GRID EN MEDQUERRI!!!!! */
+.sobnos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 12px;
+  grid-template-areas: "sndiv" "snimg" "snimg1"; }
+
+.sndiv {
+  grid-area: sndiv; }
+
+.snimg {
+  grid-area: snimg; }
+
+.snimg1 {
+  grid-area: snimg1; }
