@@ -126,9 +126,9 @@ footer{
         }
     }
     .iconos-redes{
-         color: #ffc107;
-
-    }        
+         color: rgb(255, 255, 41);
+         font-size: 35px;
+        }        
     
 }
         
@@ -197,6 +197,7 @@ main{
 }
 
 /*  pagina "Formulario" */
+
 .perfilmain{
     background-image: url(../imagenes/index/20.jpeg);
     background-size: cover;
@@ -247,12 +248,30 @@ main{
     }
     
     /* Sobre Nosotros */
+main{    
     .snimg{
         display: none;
     }
     .snimg1{
         display: none;
     }
+    
+    .sobnos{
+        div{
+          border-radius: 5%;
+          padding: 0 15px;
+        }
+        p{
+          line-height: 1.6;
+          margin-top: 15%;
+          word-spacing: 3px;
+          width: auto;
+          margin-right: 0;
+          margin-left: 0;
+        }
+    }
+    
+}
     
 
 
@@ -265,5 +284,9 @@ main{
         background-image: url(../imagenes/index/20.jpeg);
         background-position: center;
     }
+}
+@media screen and (max-width:1341px) {
+   
+    
 }   
  

@@ -106,7 +106,8 @@ footer {
     footer .enlaces-footer:hover {
       color: #ffc107; }
   footer .iconos-redes {
-    color: #ffc107; }
+    color: #ffff29;
+    font-size: 35px; }
 
 /*  Main Paginas */
 main .contenedorart {
@@ -183,10 +184,20 @@ main {
     gap: 12px 12px;
     grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f"; }
   /* Sobre Nosotros */
-  .snimg {
+  main .snimg {
     display: none; }
-  .snimg1 {
+  main .snimg1 {
     display: none; }
+  main .sobnos div {
+    border-radius: 5%;
+    padding: 0 15px; }
+  main .sobnos p {
+    line-height: 1.6;
+    margin-top: 15%;
+    word-spacing: 3px;
+    width: auto;
+    margin-right: 0;
+    margin-left: 0; }
   /* Formulario */
   .formperfil {
     width: auto;
