@@ -3,6 +3,26 @@
   padding: 0;
   box-sizing: border-box; }
 
+body .btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 63px;
+  bottom: 25px;
+  right: 25px;
+  background: #0df053;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease; }
+  body .btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: #fff; }
+
 header nav .imglogo {
   border-radius: 50%;
   width: 130px; }
@@ -89,6 +109,9 @@ main {
   border: 3px solid;
   background-size: cover;
   background-position: center; }
+
+.uno {
+  background-size: cover; }
 
 footer {
   border: 30px;
@@ -205,3 +228,9 @@ main {
     border-radius: 0%;
     background-image: url(../imagenes/index/20.jpeg);
     background-position: center; } }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px; } }
