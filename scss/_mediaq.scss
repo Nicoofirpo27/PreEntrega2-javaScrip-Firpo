@@ -1,0 +1,77 @@
+@media screen and(max-width:576px){
+    /* Index */
+    header{
+        .imglogo{
+                border-radius: 100%;
+                width: 40px;
+                height: 107px;
+                
+                
+        }
+                
+    }    
+    .carousel-inner{
+        height: 300px;
+        
+    }
+    .imgindex{
+        height: 300px;
+    }
+    .imgmain {
+        margin: 1%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+        gap: 12px 12px; 
+        grid-template-areas: 
+          "a a"
+          "b b"
+          "c c"
+          "d d"
+          "e e"
+          "f f"; 
+    }
+    
+    /* Sobre Nosotros */
+main{    
+    .snimg{
+        display: none;
+    }
+    .snimg1{
+        display: none;
+    }
+    
+    .sobnos{
+        div{
+          border-radius: 5%;
+          padding: 0 15px;
+        }
+        p{
+          line-height: 1.6;
+          margin-top: 15%;
+          word-spacing: 3px;
+          width: auto;
+          margin-right: 0;
+          margin-left: 0;
+        }
+    }
+    
+}
+    
+
+
+    
+    /* Formulario */
+    .formperfil{
+        width: auto;
+        height: auto;
+        border-radius: 0%;
+        background-image: url(../imagenes/index/20.jpeg);
+        background-position: center;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}

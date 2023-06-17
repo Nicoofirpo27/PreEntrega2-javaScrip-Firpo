@@ -1,0 +1,21 @@
+main{
+    
+    .contenedorart{
+        
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+        img{
+            height: 300px;
+            border-radius: 10%;
+            width: 300px;
+        }
+    }
+    .imgremera{
+        height: 450px;
+        width: 300px;
+        border-radius: 10%;
+    }
+    
+}

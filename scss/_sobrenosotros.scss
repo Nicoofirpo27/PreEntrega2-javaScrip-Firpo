@@ -1,0 +1,36 @@
+main{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+    .sobnos{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        p{
+            line-height: 1.6;
+            margin-top: 15%;
+            word-spacing: 3px;
+            width: 430px;
+            margin-right: 150px;
+            margin-left: 100px;
+            
+        }
+        img{
+            width: 600px;
+            margin-top: 30px;
+            height: 500px;
+            border: 3px solid;
+            border-radius: 5%;
+        }
+    .titlesobnos{
+        padding-top: 50px;
+        text-decoration: underline 4px solid;
+    }
+    }
+    .sobnos-div{
+        border-radius: 5%;
+        margin-left: 30px;
+    }
+    
+}

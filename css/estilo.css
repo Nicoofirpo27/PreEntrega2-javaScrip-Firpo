@@ -3,6 +3,105 @@
   padding: 0;
   box-sizing: border-box; }
 
+main .contenedorart {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around; }
+  main .contenedorart img {
+    height: 300px;
+    border-radius: 10%;
+    width: 300px; }
+
+main .imgremera {
+  height: 450px;
+  width: 300px;
+  border-radius: 10%; }
+
+main {
+  text-align: center;
+  margin-top: 50px; }
+  main .sobnos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; }
+    main .sobnos p {
+      line-height: 1.6;
+      margin-top: 15%;
+      word-spacing: 3px;
+      width: 430px;
+      margin-right: 150px;
+      margin-left: 100px; }
+    main .sobnos img {
+      width: 600px;
+      margin-top: 30px;
+      height: 500px;
+      border: 3px solid;
+      border-radius: 5%; }
+    main .sobnos .titlesobnos {
+      padding-top: 50px;
+      text-decoration: underline 4px solid; }
+  main .sobnos-div {
+    border-radius: 5%;
+    margin-left: 30px; }
+
+.perfilmain {
+  background-image: url(../imagenes/index/20.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0%; }
+
+.formperfil {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+  padding: 5%;
+  border-radius: 10%; }
+
+@media screen and (max-width: 576px) {
+  /* Index */
+  header .imglogo {
+    border-radius: 100%;
+    width: 40px;
+    height: 107px; }
+  .carousel-inner {
+    height: 300px; }
+  .imgindex {
+    height: 300px; }
+  .imgmain {
+    margin: 1%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px 12px;
+    grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f"; }
+  /* Sobre Nosotros */
+  main .snimg {
+    display: none; }
+  main .snimg1 {
+    display: none; }
+  main .sobnos div {
+    border-radius: 5%;
+    padding: 0 15px; }
+  main .sobnos p {
+    line-height: 1.6;
+    margin-top: 15%;
+    word-spacing: 3px;
+    width: auto;
+    margin-right: 0;
+    margin-left: 0; }
+  /* Formulario */
+  .formperfil {
+    width: auto;
+    height: auto;
+    border-radius: 0%;
+    background-image: url(../imagenes/index/20.jpeg);
+    background-position: center; } }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px; } }
+
 body .btn-wsp {
   position: fixed;
   width: 60px;
@@ -129,108 +228,5 @@ footer {
     footer .enlaces-footer:hover {
       color: #ffc107; }
   footer .iconos-redes {
-    color: #ffff29;
+    color: #ffc107;
     font-size: 35px; }
-
-/*  Main Paginas */
-main .contenedorart {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around; }
-  main .contenedorart img {
-    height: 300px;
-    border-radius: 10%;
-    width: 300px; }
-
-main .imgremera {
-  height: 450px;
-  width: 300px;
-  border-radius: 10%; }
-
-/*  pagina "Sobre Nosotros" */
-main {
-  text-align: center;
-  margin-top: 50px; }
-  main .sobnos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap; }
-    main .sobnos p {
-      line-height: 1.6;
-      margin-top: 15%;
-      word-spacing: 3px;
-      width: 430px;
-      margin-right: 150px;
-      margin-left: 100px; }
-    main .sobnos img {
-      width: 600px;
-      margin-top: 30px;
-      height: 500px;
-      border: 3px solid;
-      border-radius: 5%; }
-    main .sobnos .titlesobnos {
-      padding-top: 50px;
-      text-decoration: underline 4px solid; }
-  main .sobnos-div {
-    border-radius: 5%;
-    margin-left: 30px; }
-
-/*  pagina "Formulario" */
-.perfilmain {
-  background-image: url(../imagenes/index/20.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0%; }
-
-.formperfil {
-  width: 600px;
-  height: 900px;
-  margin: auto;
-  padding: 5%;
-  border-radius: 10%; }
-
-/* Media Querry */
-@media screen and (max-width: 576px) {
-  /* Index */
-  header .imglogo {
-    border-radius: 100%;
-    width: 40px;
-    height: 107px; }
-  .carousel-inner {
-    height: 300px; }
-  .imgindex {
-    height: 300px; }
-  .imgmain {
-    margin: 1%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 12px 12px;
-    grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f"; }
-  /* Sobre Nosotros */
-  main .snimg {
-    display: none; }
-  main .snimg1 {
-    display: none; }
-  main .sobnos div {
-    border-radius: 5%;
-    padding: 0 15px; }
-  main .sobnos p {
-    line-height: 1.6;
-    margin-top: 15%;
-    word-spacing: 3px;
-    width: auto;
-    margin-right: 0;
-    margin-left: 0; }
-  /* Formulario */
-  .formperfil {
-    width: auto;
-    height: auto;
-    border-radius: 0%;
-    background-image: url(../imagenes/index/20.jpeg);
-    background-position: center; } }
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .btn-wsp {
-    width: 63px;
-    height: 63px;
-    line-height: 66px; } }
