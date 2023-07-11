@@ -72,6 +72,9 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 12px 12px;
     grid-template-areas: "a a" "b b" "c c" "d d" "e e" "f f"; }
+    main .imgmain .capa {
+      opacity: 1;
+      visibility: visible; }
   /* Sobre Nosotros */
   main .snimg {
     display: none; }
@@ -87,6 +90,10 @@ main {
     width: auto;
     margin-right: 0;
     margin-left: 0; }
+  /* Paginas del Catalogo */
+  main .catalogo {
+    margin-left: auto;
+    margin-right: auto; }
   /* Formulario */
   .formperfil {
     width: auto;

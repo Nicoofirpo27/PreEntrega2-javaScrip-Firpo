@@ -31,6 +31,11 @@ main{
           "d d"
           "e e"
           "f f"; 
+
+        .capa{
+            opacity: 1;
+            visibility: visible;
+        }
     }
 }
     
@@ -59,7 +64,15 @@ main{
     }
     
 }
-    
+    /* Paginas del Catalogo */
+
+main{
+    .catalogo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 
     
