@@ -89,4 +89,10 @@ function generarPrecioAleatorio(min, max) {
   
   
   agregarArticulos();
+
+
+
   
+
+
+
